@@ -28,6 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 // Defines
+#define NUM_BIO_TRACKS 8
+
 #define ENERGY_TRACK 0
 #define BIOHAZARD_TRACK (ENERGY_TRACK + 1)
 #define RADIATION_TRACK (BIOHAZARD_TRACK + 1)

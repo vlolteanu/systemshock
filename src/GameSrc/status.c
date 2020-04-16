@@ -55,9 +55,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "gamesys.h"
 #include "gr2ss.h"
+#include "biotrax.h"
 
 // Defines
-#define NUM_BIO_TRACKS 8
 
 #define GAMESCR_BIO        0
 #define GAMESCR_BIO_X      5
