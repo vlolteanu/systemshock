@@ -168,10 +168,7 @@ errtype play_vmail_intro(uchar use_texture_buffer)
       return(ERR_NOEFFECT);
 
    if (use_texture_buffer)
-   {
       AnimSetDataBufferSafe(main_anim, tmap_static_mem,sizeof(tmap_static_mem));
-      AnimPreloadFrames(main_anim, REF_ANIM_vintro);
-   }
 
    // let's slork up memory!!!!
    w = VINTRO_W;

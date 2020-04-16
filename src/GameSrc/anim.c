@@ -86,10 +86,6 @@ void AnimSetAnimPall(Ref animRef) {
 
 }
 
-bool AnimPreloadFrames(ActAnim *paa, Ref animRef) {
-	return 1;
-}
-
 ActAnim *AnimPlayRegion(Ref animRef, LGRegion *region, LGPoint loc, char unknown,
    void (*composeFunc)(LGRect *area, ubyte flags)) {
 	// start playing

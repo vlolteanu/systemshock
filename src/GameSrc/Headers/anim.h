@@ -64,8 +64,6 @@ void AnimSetNotify(ActAnim *paa, void *powner, AnimCode mask,
 
 //      Deal with animation resources: anim.c
 
-bool AnimPreloadFrames(ActAnim *paa, Ref animRef);                      // preload an anim's frames
-
 //      Macro to read anim header from resource
 
 #define AnimReadHeader(ref,pAnhead) (*pAnhead = (* ((AnimHead *) RefGet(ref))));
